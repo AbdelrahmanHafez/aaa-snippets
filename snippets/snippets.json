@@ -1,0 +1,18 @@
+{
+  "Assert mocha with chai expect": {
+    "prefix": "aaa-mocha-chai-expect",
+    "body": [
+      "it(\"${1|When: ,Given: ,Scenario: |}, ${2|Then: ,It should: ,Expectation: |}\", () => {",
+      "  // Arrange",
+      "  ${0}",
+      "",
+      "  // Act",
+      "  const ${3:receivedResponse} = ${6:''};",
+      "",
+      "  // Assert",
+      "  expect(${3}${4}).${5|toEqual({}),toBe(1),toMatchObject({}),toMatch('string'),toBeGreaterThan(1),toBeUndefined(),toBeNull(),toMatchInlineSnapshot(),toMatchSnapshot()|};",
+      "});"
+    ],
+    "description": "Test structure that conforms to best practices"
+  }
+}

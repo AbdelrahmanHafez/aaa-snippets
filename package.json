@@ -1,0 +1,23 @@
+{
+    "name": "aaa-snippets",
+    "displayName": "aaa-snippets",
+    "description": "JavaScript testing code snippets",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
